@@ -1,0 +1,7 @@
+#!/usr/bin/python
+import sys
+
+def catalog_files (fname):
+  print fname
+  
+catalog_files (sys.argv [1])
