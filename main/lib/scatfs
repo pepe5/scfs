@@ -1,0 +1,7 @@
+#!/usr/bin/python
+import sys
+
+def ls (fname):
+  print fname
+  
+ls (sys.argv [2])
