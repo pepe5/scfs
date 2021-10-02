@@ -1,0 +1,3 @@
+#!/bin/bash -x
+scatman catalog ./f1 | tee /tmp/c-f1
+diff /tmp/c-f1 <(echo ./f1)
