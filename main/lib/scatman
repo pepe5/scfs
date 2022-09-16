@@ -2,10 +2,6 @@
 import sys
 
 def catalog_files (fname):
-  """"add <fname> to the calatog
-
-  :param fname: file or directory path
-  """
   print (fname)
   
 catalog_files (sys.argv [2])
