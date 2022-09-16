@@ -1,4 +1,6 @@
-#!/bin/bash -x
-touch ./f1
+#!/bin/bash
+echo >&2 '' -expect:
+echo >&2 ./f1
+echo >&2 '' -getting:
 scatman catalog ./f1 | tee /tmp/c-f1
 diff /tmp/c-f1 <(echo ./f1)
